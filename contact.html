@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./fotokrafuu/png-transparent-logo-the-walt-disney-company-brand-symbol-logo-disney-text-logo-monochrome-removebg-preview (1).png" alt="logo"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about us</a></li>
+                    <li><a href="films.html">films</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="snowMenu()"></i>
+        </nav>
+        <h1>прикол</h1>
+    </section>
+
+    <main>
+       <section class="location">
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A9061ea45d336d845f3bb1704b6ffa53f7e778708aa9c9892f182df900177aa7f&amp;source=constructor" 
+        width="500" height="400" frameborder="0"></iframe>
+       </section>
+
+
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa-solid fa-house"></i>
+                        <span>
+                            <h5>недрах Газированной горы</h5>
+                            <p>попа мира</p>
+                        </span>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>
+                            <h5>роуминга не хватит</h5>
+                            <p>С понедельника и до понедельника, с 00:00 до 09:00</p>
+                        </span>
+                    </div>
+                   
+                    <div>
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>
+                            <h5>мне лень</h5>
+                            <p>0/0</p>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="contact-col">
+                    <form>
+                        <input type="text" placeholder="как туалет">
+                        <input type="email" placeholder="kyudyugy">
+                        <textarea rows="5" placeholder="да мне леееенннньь"></textarea>
+                        <button type="sumbit" class="btn red-btn">я хочу спать</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h4>about us</h4>
+        <P>я в шоке</P>
+        <div class="icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        <p>did you poop today?<i class="fa-solid fa-heart"></i></p>
+    </footer>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function snowMenu(){
+            navLinks.style.right = '0';
+        }
+
+        function hideMenu(){
+            navLinks.style.right = '-200px'
+        }
+    </script>
+</body>
+</html>

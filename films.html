@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="./fotokrafuu/png-transparent-logo-the-walt-disney-company-brand-symbol-logo-disney-text-logo-monochrome-removebg-preview (1).png" alt="logo"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about us</a></li>
+                    <li><a href="films.html">films</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="snowMenu()"></i>
+        </nav>
+        <h1>films</h1>
+    </header>
+
+    <main>
+        <section class="block2">
+            <h1>Рапунцель</h1>
+            <p>Рапунцель — главная героиня 50-го по счёту полнометражного анимационного 
+                фильма студии Walt Disney Pictures «Рапунцель: Запутанная история» и его короткометражного 
+                мультфильма-сиквела «Рапунцель: Счастлива навсегда».
+                 В обоих появлениях героиня озвучена актрисой и певицей Мэнди Мур</p>
+
+            <div class="row">
+                <div class="block2-col">
+                    <h3>1 факт</h3>
+                    <p>В мультфильме «Мулан» моделью для Ли Шанга послужил Брюс Уиллис. Точнее, именно с него срисовывали движения 
+                        во время тренировки бойцов в лагере. Его позвали и озвучить Шанга, но голос не подошел к образу.</p>
+                </div>
+
+                <div class="block2-col">
+                    <h3>2 факт</h3>
+                    <p> Для того, чтобы создать движения Тарзана, скользящего по стволам деревьев в джунглях, 
+                        создатели наблюдали за профессиональным скейтбордистом Тони Хоуком.</p>
+                </div>
+
+                <div class="block2-col">
+                    <h3>3 факт</h3>
+                    <p> Студия «Дисней» собиралась выпустить свою линию вина, чтобы прорекламировать мультфильм «Рататуй», но на них обрушился шквал критики за то,
+                         что они привлекают внимание к алкоголю с помощью мультиков, и от идеи пришлось отказаться.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="block4">
+            <h1>фильмы «Дисней»</h1>
+            <p>Ниже представлен список кинофильмов, выпущенных под марками компании 
+                Walt Disney Productions (с 1928 по 1983 год) и кинокомпании Walt Disney Pictures (с 1983 года).</p>
+            <div class="row">
+                <div class="block4-row">
+                    <img src="./fotokrafuu/novyj-trejler-pinokkio-adaptacii-klassicheskoj-skazki-s-tomom-henksom_1661361282767761621.jpg">
+                    <h3>Пиноккио</h3>
+                    <p>Среди самых известных иллюстраторов Пиноккио были Роберто Инноченти и Либико Марайя (1955).
+                         Его другие популярные метаморфозы можно увидеть в мультфильме Уолта Диснея, а также в фильме Маттео Гарроне.</p>
+                </div>
+                <div class="block4-row">
+                    <img src="./fotokrafuu/Bam_poster_en.jpg">
+                    <h3>Бэмби</h3>
+                    <p>Однажды утром на маленькой, освещенной весенним солнцем, лесной полянке родился олененок.
+                        На нового лесного принца сбежались и слетелись посмотреть все звери и птицы. Олененка назвали Бэмби.</p>
+                </div>
+                <div class="block4-row">
+                    <img src="./fotokrafuu/fo43hfiffei.jfif">
+                    <h3>20 000 льё под водой</h3>
+                    <p>«Два́дцать ты́сяч лье под водо́й» — классический научно-фантастический роман французского писателя Жюля Верна, впервые опубликованный с 20 марта 1869 по 20 июня 1870 года в журнале «Magasin d’éducation et de récréation»,
+                         издававшемся Пьер-Жюлем Этцелем в Париже и вышедший отдельным изданием в 1870 году.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h4>about us</h4>
+        <P>я в шоке</P>
+        <div class="icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        <p>did you poop today?<i class="fa-solid fa-heart"></i></p>
+    </footer>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function snowMenu(){
+            navLinks.style.right = '0';
+        }
+
+        function hideMenu(){
+            navLinks.style.right = '-200px'
+        }
+    </script>
+</body>
+</html>

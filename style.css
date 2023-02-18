@@ -1,0 +1,517 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(28, 31, 44, 0.7),
+    rgb(28, 31, 44, 0.7)), url("./fotokrafuu/M0MupnZCoilbvnFl.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 6%;
+    align-items: center;
+}
+
+nav img{
+    width: 130px;
+}
+
+.nav-links{
+     flex: 1;
+     text-align: right;
+}
+
+.nav-links ul li{
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.block1{
+    width: 90%;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.block1 h1{
+    font-size: 61px;
+    color: rgb(45, 45, 159);
+}
+
+.block1 p{
+    font-size: 16px;
+    margin: 10px 0 40px;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(86, 20, 193);
+    padding: 12px 34px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    background-color: rgb(50, 50, 138);
+    transition: 1s;
+}
+
+.nav-links::after{
+    content: ‘‘;
+    width: 0%;
+    height: 2px;
+    background: rgb(27, 27, 119);
+    transition: 0.5s;
+    margin: auto;
+    display: block;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.block2{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 100px;
+}
+
+h1{
+    font-size: 42px;
+    font-weight: 600;
+    color: rgb(93, 93, 190);
+}
+
+p{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.row{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+
+.block2-col{
+    background: rgb(42, 42, 111);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    flex-basis: 30%;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.block2-col:hover{
+    box-shadow: 0 0 20px 0 rgb(59, 59, 126);
+}
+
+.block3{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.block3-col{
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.block3-col img{
+    width: 100%;
+    display: block;
+}
+
+.label{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: 0.5s;
+}
+
+.label:hover{
+    background: rgba(67, 67, 114, 0.5);
+}
+
+.label h3{
+    width: 100px;
+    font-weight: 500;
+    color: white;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    transition: 0.5s;
+}
+
+.label:hover h3{
+    bottom: 48%;
+}
+
+.block4{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.block4-row{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.block4-row img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.block4-row p{
+    padding: 0;
+}
+
+.block4-row h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.ema{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+ 
+.ema-col{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: white;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+
+.ema-col img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.block6{
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./fotokrafuu/Disney-logo-958x575.png);
+    padding: 150px 0;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.block6 h1{
+    color: white;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+    padding: 30px 0;
+}
+
+footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: rgb(82, 82, 167);
+}
+
+.icons i{
+    color: cadetblue;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+    font-size: 25px;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+.fa-heart{
+    color: rgb(124, 37, 37);
+    font-size: 25px;
+    margin-left: 8px;
+}
+
+nav .fa-bars, nav .fa-xmark{
+    display: none;
+}
+
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(11, 19, 50, 0.7), 
+    rgba(13, 22, 58, 0.7)), url("./fotokrafuu/mfjjjjjjgbewy.jfif");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: rgb(41, 41, 70);
+}
+
+.sub-header h1{
+    margin-top: 100px;
+}
+
+.about-us{
+    width: 80%;
+    margin: 100px auto;
+}
+
+.about-col{
+    flex-basis: 45%;
+    padding: 30px 2px;
+}
+
+.about-col img{
+    width: 100%;
+}
+
+.about-col h1{
+    padding: 0;
+}
+
+.about-col p{
+    padding: 15px 0 25px;
+}
+
+.red-btn{
+    background: transparent;
+    border: 1px solid rgb(42, 42, 111);
+    color: rgb(50, 50, 138);
+}
+
+.red-btn:hover{
+    color: white;
+}
+
+.blog-content{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.blog-left{
+    flex-basis: 65%;
+}
+
+.blog-left img{
+    width: 100%;
+}
+
+.blog-left h2{
+    color: #000;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+.blog-left p{
+    padding: 0;
+    color: #999;
+}
+
+.comment-box{
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+
+.comment-box h3{
+    text-align: left;
+}
+
+.comment-box input, .comment-box textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: none;
+    background: #f0f0f0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.blog-right{
+    flex-basis: 32%;
+}
+
+.blog-right h3{
+    background: rgb(113, 48, 48);
+    color: aliceblue;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.blog-right h3{
+    background: blanchedalmond;
+    color: white;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.blog-right div{
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+    padding: 8px;
+}
+
+.blog-right div:hover{
+    background: rgb(65, 47, 47);
+    transform: 1s;
+}
+
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
+
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.contact-col div{
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-col div p{
+    padding: 0;
+}
+
+.contact-col div .fa-solid{
+    font-size: 28px;
+    color:rgb(206, 40, 40);
+    margin: 10px;
+    margin-right: 40px;
+}
+
+.contact-col div h5{
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.location iframe{
+    width: 100%;
+}
+
+@media(max-width:700px) {
+    .block1 h1{
+        font-size: 25px;
+    }
+
+    .nav-links ul li{
+        display: block;
+    }
+
+    .nav-links{
+        position: fixed;
+        background: rgb(42, 42, 106);
+        height: 100vh;
+        top: 0;
+        right: -250px;
+        text-align: left;
+        z-index: 2;
+        translate: 1s;
+    }
+
+    nav .fa-bars, nav .fa-xmark{
+        display: block;
+        color: white;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .nav-links ul{
+        padding: 30px;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    .ema img{
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    .block6 h1{
+        font-size: 24px;
+    }
+}
